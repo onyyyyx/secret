@@ -138,10 +138,10 @@ var sha256 = function sha256(ascii) {
     return result;
 };
 
-function ask() {
-    input = window.prompt('Password :')
-    if (sha256(input) === 'f112e0e1a856f491b06e636063da1a7e11b9d69b70c8e9ff886ac1f9dcd13cad') {
-        document.getElementById('secret').innerHTML = 'Je t\'aime'
-        alert('Done')
+function verify() {
+    user = document.getElementById('sLogin').value;
+    passwd = document.getElementById('sPasswd').value;
+    if (sha256(passwd) === 'f112e0e1a856f491b06e636063da1a7e11b9d69b70c8e9ff886ac1f9dcd13cad' && user === 's3(rE+') {
+        window.location="#id01"
     }
 }
