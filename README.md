@@ -1,7 +1,10 @@
+
 # Secret
 
-Coucou, cette page, elle est **privée**.
-C'était juste un message à faire passer.
+Coucou !
 
-Si tu veux y accéder, il y a un mot de passe.
-*Bonne chance pour le trouver ;)*
+Cette page, c'est une *image* du Système solaire.
+
+Dans les contrôles, on peut entrer un mot de passe qui affiche... ||quelque chose||
+
+À plus
