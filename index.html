@@ -10,7 +10,7 @@
   <link rel="icon" href="images/icon.png">
 </head>
 
-<body class="opening hide-UI view-2D zoom-large data-close controls-close">
+<body class="opening hide-UI view-2D zoom-large data-close controls-close" onload="calculate()">
   <div id="navbar">
     <a id="toggle-data" href="#data"><i class="icon-data"></i>Data</a>
     <h1 id="secret"></h1>
@@ -157,13 +157,14 @@
       <div class="modal-content">
         <header class="container">
           <a href="#" class="closebtn">×</a>
-          <h2>Entête de modale</h2>
+          <h2>Message important</h2>
         </header>
         <div class="container">
-          <p>Texte dans la fenêtre modale.</p>
+          <p>J'avais pas osé te le dire pendant l'année.</p>
+          <p>Mais ça fait <span id="nDays"></span> jours que</p>
         </div>
         <footer class="container">
-          <p>Pied de page de modale</p>
+          <p>Je t'aime ❤️</p>
         </footer>
       </div>
     </div>

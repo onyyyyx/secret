@@ -40,7 +40,8 @@
   text-align: justify;
   width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- 
+  line-height: 1.5;
+
   animation-name: slideDownFadeIN;
   animation-duration: 0.5s;
 }
@@ -52,6 +53,7 @@
   font-size: 35px;
   font-weight: bold;
   color: #fff;
+  transition: 0.5s;
 }
 
 .closebtn:hover,
@@ -66,13 +68,13 @@
 }
 
 header {
-  background-color: #5cb85c;
+  background-color: #425d80;
   font-size: 25px;
   color: white;
 }
 
 footer {
-  background-color: #5cb85c;
+  background-color: #425d80;
   font-size: 20px;
   color: white;
 }

@@ -142,6 +142,27 @@ function verify() {
     user = document.getElementById('sLogin').value;
     passwd = document.getElementById('sPasswd').value;
     if (sha256(passwd) === 'f112e0e1a856f491b06e636063da1a7e11b9d69b70c8e9ff886ac1f9dcd13cad' && user === 's3(rE+') {
-        window.location="#id01"
+        window.location = "#id01";
     }
+}
+
+function decode(hexString) {
+    let decodedString = '';
+
+    for (let i = 0; i < hexString.length; i += 2) {
+        const hex = hexString.substr(i, 2);
+        const charCode = parseInt(hex, 16);
+        decodedString += String.fromCharCode(charCode);
+    }
+    return decodedString;
+}
+
+function calculate() {
+    var d1 = new Date(2023, 8, 3);
+    var d2 = new Date();
+
+    var diffMs = d2 - d1;
+    var diffD = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+
+    document.getElementById('nDays').innerHTML = diffD;
 }
