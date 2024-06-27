@@ -141,7 +141,7 @@ var sha256 = function sha256(ascii) {
 function verify() {
     user = document.getElementById('sLogin').value;
     passwd = document.getElementById('sPasswd').value;
-    if (sha256(passwd) === 'f112e0e1a856f491b06e636063da1a7e11b9d69b70c8e9ff886ac1f9dcd13cad' && user === 's3(rE+') {
+    if (sha256(passwd) === '7bec7080eb84ba278817c675a33f4bdbb83697ecac286bd68cea74f386a02950' && user === 'me') {
         window.location = "#id01";
     }
 }
